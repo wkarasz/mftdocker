@@ -2,9 +2,9 @@
 TIBCO MFT Docker Scripts
 
 ## How to use
-This is dockerization project for TIBCO MFT.
+This is a dockerization project for TIBCO MFT.
 
-To install, you will first need to download Java JDK, JCE Policy Files, and the MFT install zip file.  Place the file in your repo directory.
+To install, you will first need to download Java JDK, JCE Policy Files, and the MFT install zip file.  Place the files in your repo directory.
 
 There are hard-coded values in the install_prep1.sh file.  Verify your Java version matches or adjust accordingly.
 
