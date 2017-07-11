@@ -16,6 +16,8 @@ Delete these two files from the repo and replace with the SilentInstall.xml and 
 ## Docker Commands to Run
 `cd` into your MFT project directory e.g. mftdocker/cc
 
-```docker build -t mftcc:8.0.0 .
-docker run -it --rm -p 8443:8443 mftcc:8.0.0```
+`docker build -t mftcc:8.0.0 .`
+
+`docker run -it --rm -p 8443:8443 mftcc:8.0.0`
+
 Launch your web-browser and verify you are able to connect to the Command Center GUI
