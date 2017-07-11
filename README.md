@@ -14,7 +14,8 @@ The project ships with a default SilentInstall.xml and keystore.jks.  These file
 Delete these two files from the repo and replace with the SilentInstall.xml and keystore.jks generated when running the MFT silent setup.
 
 ## Docker Commands to Run
-cd into your MFT project directory e.g. mftdocker/cc
-`docker build -t mftcc:8.0.0 .`
-`docker run -it --rm -p 8443:8443 mftcc:8.0.0`
+`cd` into your MFT project directory e.g. mftdocker/cc
+
+```docker build -t mftcc:8.0.0 .
+docker run -it --rm -p 8443:8443 mftcc:8.0.0```
 Launch your web-browser and verify you are able to connect to the Command Center GUI
