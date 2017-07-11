@@ -1,0 +1,1 @@
+Use the Oracle JDK8.  Any minor version of the Oracle JDK8 can be used, however, the install_prep1.sh is written with hardcoded values that will otherwise need to be updated.
